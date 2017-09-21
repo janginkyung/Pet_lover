@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_picture"
+        icon="@drawable/picture"
+        title="사진" />
+    <tab
+        id="@+id/tab_community"
+        icon="@drawable/chat"
+        title="커뮤니티" />
+    <tab
+        id="@+id/tab_voluteer"
+        icon="@drawable/volunteer"
+        title="봉사" />
+</tabs>

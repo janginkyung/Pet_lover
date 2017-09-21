@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@+id/profile_sns"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:background="#FFFFFF"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="0dp"
+        />
+
+    <ImageView
+        android:id="@+id/profileImageview"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintTop_toTopOf="@+id/profile_sns"
+        app:layout_constraintBottom_toBottomOf="@+id/profile_sns"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="18dp"
+        />
+
+    <TextView
+        android:id="@+id/profileNameTextVIew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/profileImageview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:text="장인경"
+       />
+
+    <TextView
+        android:id="@+id/snsDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/profileImageview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:text="2017년 6월 15일"
+        />
+    
+    <ImageView
+        android:id="@+id/snsImageView"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toBottomOf="@+id/profile_sns"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="#F2F2F2"
+        />
+    
+    <View
+        android:id="@+id/snsTextContainer"
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        app:layout_constraintTop_toBottomOf="@+id/snsImageView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/snsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/snsTextContainer"
+        android:textSize="14sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="18dp"
+        android:text="오늘 저희 강아지랑 산책을 나갔어요
+강아지가 다리가 다쳐서 잘 걷지 못했어요...
+너무가슴이아파요ㅠㅠㅠㅠ하지만 그래도 밖에나와서 기분이 좋은가 눈이 동글동글해지까 ...   "
+        />
+
+</android.support.constraint.ConstraintLayout>
